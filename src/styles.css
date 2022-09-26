@@ -1,1 +1,60 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+  height: 100%;
+  background-color: #fffaf0;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+  background-color: #fffaf0;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #fffaf0;
+  margin: 0;
+  padding: 0;
+}
+
+.card {
+  border: none!important;
+  background-color: #fffaf0!important;
+}
+
+.card:hover {
+  background-color: red!important;
+}
+
+.card-group {
+  margin-top: 20px;
+}
+
+.jumbotron {
+  background-color: #fffaf0;
+  margin-bottom: 0!important;
+  padding: 0;
+}
+
+.wrapper {
+  background-color: #fffaf0;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.containter {
+  background-color: #fffaf0;
+  margin-top: 0;
+  padding: 0;
+}
+
+.card {
+  margin-top: 0;
+}
+
+.navbar-customclass {
+  background-color: #fffaf0;
+}
