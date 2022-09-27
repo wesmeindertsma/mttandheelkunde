@@ -1,30 +1,36 @@
 body {
-  height: 100%;
   background-color: #fffaf0;
   margin: 0;
   padding: 0;
 }
 
 html {
-  height: 100%;
   background-color: #fffaf0;
   margin: 0;
   padding: 0;
 }
 
 header {
-  background-color: #fffaf0;
   margin: 0;
   padding: 0;
+}
+
+.googlemapsframe {
+  padding-top: 15px;
+  alignment: center;
+  max-width: 1200px;
+  height: border-box;
 }
 
 .card {
   border: none!important;
   background-color: #fffaf0!important;
+  transition: all 1s ease-out;
 }
 
 .card:hover {
-  background-color: red!important;
+  background-color: #F0F6FF!important;
+  transition: all 1s ease-in;
 }
 
 .card-group {
@@ -32,7 +38,12 @@ header {
 }
 
 .jumbotron {
-  background-color: #fffaf0;
+  height: 400px;
+  background-image: url("assets/images/marynthe2.png");
+  background-size: 75%;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-color: #F0F6FF!important;
   margin-bottom: 0!important;
   padding: 0;
 }
@@ -53,8 +64,21 @@ header {
 
 .card {
   margin-top: 0;
+  text-align: center;
+  cursor: pointer;
+}
+
+.card-img-top {
+  max-width: 25%;
+  height: auto;
+}
+
+.portfolio-photo {
+  pointer-events: none;
 }
 
 .navbar-customclass {
-  background-color: #fffaf0;
+  background-color: #F0F6FF;
+  backdrop-filter: invert(80%)!important;
+  opacity: 75%;
 }
