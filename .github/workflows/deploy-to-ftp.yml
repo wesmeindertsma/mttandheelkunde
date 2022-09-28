@@ -9,8 +9,9 @@ jobs:
       uses: actions/checkout@v2
     
     - name: 📂 Sync files
-      uses: wesmeindertsma/FTP-Deploy-Action@4.3.2
+      uses: SamKirkland/FTP-Deploy-Action@4.3.2
       with:
         server: ftp.mttandheelkunde.nl
+        port: 26
         username: meindertsma@mttandheelkunde.nl
         password: ${{ secrets.ftp_password }}
