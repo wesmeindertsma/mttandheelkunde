@@ -16,10 +16,10 @@ header {
 }
 
 .googlemapsframe {
+  height: 100%;
   padding-top: 15px;
   alignment: center;
-  max-width: 1200px;
-  height: border-box;
+  width: 100%;
 }
 
 .card {
@@ -38,7 +38,7 @@ header {
 }
 
 .jumbotron {
-  height: 400px;
+  max-height: 400px;
   background-image: url("assets/images/marynthe2.png");
   background-size: 75%;
   background-position: 50%;
@@ -80,5 +80,4 @@ header {
 .navbar-customclass {
   background-color: #F0F6FF;
   backdrop-filter: invert(80%)!important;
-  opacity: 75%;
 }
