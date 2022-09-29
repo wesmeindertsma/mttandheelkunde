@@ -24,12 +24,15 @@ header {
 
 .card {
   border: none!important;
-  background-color: #fffaf0!important;
+  background-color: #F0F6FF!important;
   transition: all 1s ease-out;
+  margin-top: 0;
+  text-align: center;
+  cursor: pointer;
 }
 
 .card:hover {
-  background-color: #F0F6FF!important;
+  background-color: #8496B3!important;
   transition: all 1s ease-in;
 }
 
@@ -60,12 +63,6 @@ header {
   background-color: #fffaf0;
   margin-top: 0;
   padding: 0;
-}
-
-.card {
-  margin-top: 0;
-  text-align: center;
-  cursor: pointer;
 }
 
 .card-img-top {

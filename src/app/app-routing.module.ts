@@ -1,15 +1,17 @@
 import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
-import { HomepageComponent } from "./homepage/homepage.component";
 import { RouterModule, Routes } from '@angular/router';
-import {ContactComponent} from "./contact/contact.component";
-import {AboutComponent} from "./about/about.component";
-import {PortfolioComponent} from "./portfolio/portfolio.component";
+import { ContactComponent } from "./contact/contact.component";
+import { AboutComponent } from "./about/about.component";
+import { FacingsComponent } from "./facings/facings.component";
+import { GebitsslijtageComponent } from "./gebitsslijtage/gebitsslijtage.component";
+import { KroonEnBrugwerkComponent } from "./kroon-en-brugwerk/kroon-en-brugwerk.component";
 
 const routes: Routes = [
-  { path: 'contact', component: ContactComponent },
-  { path: 'about', component: AboutComponent },
-  { path: 'portfolio', component: PortfolioComponent }
+  { path: 'puur', component: ContactComponent },
+  { path: '', component: AboutComponent },
+  { path: 'gebitsslijtage', component: GebitsslijtageComponent },
+  { path: 'kroon-en-brugwerk', component: KroonEnBrugwerkComponent },
+  { path: 'facings', component: FacingsComponent }
 ];
 
 @NgModule({
