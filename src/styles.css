@@ -1,3 +1,9 @@
+:root {
+  --red: tomato;
+  --bgColor: bisque;
+  --blue: #8496B3;
+}
+
 body {
   background-color: #fffaf0;
   margin: 0;
@@ -24,15 +30,17 @@ header {
 
 .card {
   border: none!important;
-  background-color: #F0F6FF!important;
   transition: all 1s ease-out;
-  margin-top: 0;
-  text-align: center;
+  margin-top: 40px;
+  border-spacing: 40px;
   cursor: pointer;
+  box-shadow:
+    -50px -50px 0 -40px #699CEE,
+    50px 50px 0 -40px #8496B3;
 }
 
 .card:hover {
-  background-color: #8496B3!important;
+  background-color: #FBDDA0!important;
   transition: all 1s ease-in;
 }
 
@@ -46,8 +54,8 @@ header {
   background-size: 75%;
   background-position: 50%;
   background-repeat: no-repeat;
-  background-color: #F0F6FF!important;
-  margin-bottom: 0!important;
+  background-color: white!important;
+  margin-bottom: 0px!important;
   padding: 0;
 }
 
@@ -61,8 +69,11 @@ header {
 
 .containter {
   background-color: #fffaf0;
-  margin-top: 0;
   padding: 0;
+}
+
+.col {
+  margin-top: 40px!important;
 }
 
 .card-img-top {
@@ -74,7 +85,29 @@ header {
   pointer-events: none;
 }
 
-.navbar-customclass {
-  background-color: #F0F6FF;
-  backdrop-filter: invert(80%)!important;
+.facings-photo {
+  pointer-events: none;
+  box-shadow: 20px 5px 0px 20px #699CEE!important;
+  margin-bottom: 20px;
+}
+
+.brugwerk-photo {
+  pointer-events: none;
+  box-shadow: -20px 10px 0px 20px #FBDDA0!important;
+  margin-bottom: 20px;
+}
+
+.slijtage-photo {
+  pointer-events: none;
+  box-shadow: -20px 10px 0px 20px #FBDDA0!important;
+  margin-bottom: 20px;
+}
+
+.tekst {
+  border: none!important;
+  background-color: white!important;
+  margin-bottom: 20px;
+  box-shadow:
+    -50px -50px 0 -40px #699CEE,
+    50px 50px 0 -40px #FBDDA0;
 }
